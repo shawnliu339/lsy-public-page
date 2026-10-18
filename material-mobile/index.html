@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Material Dashboard inspired mobile visual standard reference pages"
+    />
+    <title>Material Dashboard PRO · Mobile Visual Standard</title>
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Crect width='16' height='16' rx='3' fill='%23262626'/%3E%3Cpath d='M4 4h3v3H4zm5 0h3v3H9zM4 9h3v3H4zm5 0h3v3H9z' fill='white'/%3E%3C/svg%3E" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,300,0,0&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <aside class="sidebar" id="mobile-sidebar">
+      <div class="brand"><span class="brand-mark material-symbols-rounded">dashboard_customize</span><span>MATERIAL PRO</span><button class="sidebar-close material-symbols-rounded" type="button" aria-label="Close navigation" data-close-mobile-nav>close</button></div>
+      <div class="sidebar-scroll">
+        <div class="sidebar-user">
+          <span class="avatar avatar-main">CF</span>
+          <span>Demo Workspace</span>
+          <span class="material-symbols-rounded icon-sm">expand_more</span>
+        </div>
+        <nav class="sidebar-nav" aria-label="Primary navigation">
+          <button class="nav-item" type="button" data-route="/admin/overview">
+            <span class="material-symbols-rounded nav-icon">dashboard</span><span>Dashboard</span>
+          </button>
+          <div class="nav-group" data-nav-group="pages">
+            <button class="nav-item has-chevron" type="button" data-group-toggle="pages" aria-expanded="false">
+              <span class="material-symbols-rounded nav-icon">description</span><span>Pages</span><span class="material-symbols-rounded nav-chevron">expand_more</span>
+            </button>
+            <div class="subnav">
+              <button type="button" data-route="/pages/user"><i>U</i><span>User Page</span></button>
+              <button type="button" data-route="/pages/timeline"><i>T</i><span>Timeline Page</span></button>
+              <button type="button" data-route="/login"><i>L</i><span>Login</span></button>
+              <button type="button" data-route="/register"><i>R</i><span>Register</span></button>
+              <button type="button" data-route="/lock"><i>K</i><span>Lock</span></button>
+            </div>
+          </div>
+          <div class="nav-group nav-group-components">
+            <button class="nav-item has-chevron" type="button" data-group-toggle="components" aria-expanded="false">
+              <span class="material-symbols-rounded nav-icon">widgets</span><span>Components</span><span class="material-symbols-rounded nav-chevron">expand_more</span>
+            </button>
+            <div class="subnav">
+              <button type="button" data-route="/components/buttons"><i>B</i><span>Buttons</span></button>
+              <button type="button" data-route="/components/grid-system"><i>G</i><span>Grid System</span></button>
+              <button type="button" data-route="/components/panels"><i>P</i><span>Panels</span></button>
+              <button type="button" data-route="/components/sweet-alert"><i>S</i><span>Sweet Alert</span></button>
+              <button type="button" data-route="/components/notifications"><i>N</i><span>Notifications</span></button>
+              <button type="button" data-route="/components/icons"><i>I</i><span>Icons</span></button>
+              <button type="button" data-route="/components/typography"><i>T</i><span>Typography</span></button>
+            </div>
+          </div>
+          <div class="nav-group nav-group-forms">
+            <button class="nav-item has-chevron" type="button" data-group-toggle="forms" aria-expanded="false">
+              <span class="material-symbols-rounded nav-icon">edit_note</span><span>Forms</span><span class="material-symbols-rounded nav-chevron">expand_more</span>
+            </button>
+            <div class="subnav">
+              <button type="button" data-route="/forms/regular"><i>R</i><span>Regular Forms</span></button>
+              <button type="button" data-route="/forms/extended"><i>E</i><span>Extended Forms</span></button>
+              <button type="button" data-route="/forms/validation"><i>V</i><span>Validation Forms</span></button>
+              <button type="button" data-route="/forms/wizard"><i>W</i><span>Wizard</span></button>
+            </div>
+          </div>
+          <div class="nav-group nav-group-table">
+            <button class="nav-item has-chevron" type="button" data-group-toggle="tables" aria-expanded="false">
+              <span class="material-symbols-rounded nav-icon">table_view</span><span>Table List</span><span class="material-symbols-rounded nav-chevron">expand_more</span>
+            </button>
+            <div class="subnav">
+              <button type="button" data-route="/table-list/regular"><i>R</i><span>Regular Tables</span></button>
+              <button type="button" data-route="/table-list/extended"><i>E</i><span>Extended Tables</span></button>
+              <button type="button" data-route="/table-list/paginated"><i>P</i><span>Paginated Tables</span></button>
+            </div>
+          </div>
+          <div class="nav-group nav-group-maps">
+            <button class="nav-item has-chevron" type="button" data-group-toggle="maps" aria-expanded="false">
+              <span class="material-symbols-rounded nav-icon">map</span><span>Maps</span><span class="material-symbols-rounded nav-chevron">expand_more</span>
+            </button>
+            <div class="subnav">
+              <button type="button" data-route="/maps/google"><i>G</i><span>Google Maps</span></button>
+              <button type="button" data-route="/maps/full-screen"><i>F</i><span>Full Screen Maps</span></button>
+              <button type="button" data-route="/maps/vector-map"><i>V</i><span>Vector Maps</span></button>
+            </div>
+          </div>
+          <button class="nav-item" type="button" data-route="/admin/widgets">
+            <span class="material-symbols-rounded nav-icon">view_quilt</span><span>Widgets</span>
+          </button>
+          <button class="nav-item" type="button" data-route="/charts">
+            <span class="material-symbols-rounded nav-icon">monitoring</span><span>Charts</span>
+          </button>
+          <button class="nav-item" type="button" data-route="/calendar">
+            <span class="material-symbols-rounded nav-icon">calendar_month</span><span>Calendar</span>
+          </button>
+        </nav>
+      </div>
+    </aside>
+    <button class="mobile-scrim" type="button" aria-label="Close navigation" data-close-mobile-nav></button>
+
+    <header class="topbar">
+      <div class="topbar-breadcrumb"><span>Pages</span><b>/</b><span id="page-title">Dashboard</span></div>
+      <div class="topbar-row">
+        <div class="search-shell"><label class="global-search"><input type="search" placeholder="Search here" data-global-search autocomplete="off" /><span class="material-symbols-rounded icon-sm">search</span></label><div class="search-results" data-search-results></div></div>
+        <div class="topbar-tools">
+          <button class="tool-button" type="button" aria-label="Applications"><span class="material-symbols-rounded">account_circle</span></button>
+          <button class="tool-button" type="button" aria-label="Settings" data-toggle-config><span class="material-symbols-rounded">settings</span></button>
+          <button class="tool-button" type="button" aria-label="Notifications" data-toggle-notifications><span class="material-symbols-rounded">notifications</span><span class="notification-badge">3</span></button>
+        </div>
+        <button class="mobile-nav-toggle" type="button" aria-label="Open navigation" aria-controls="mobile-sidebar" aria-expanded="false" data-toggle-mobile-nav><span class="material-symbols-rounded">menu</span></button>
+      </div>
+      <div class="notification-menu" aria-hidden="true"><button type="button">New reservation received</button><button type="button">Room 302 requires attention</button><button type="button">Monthly report is ready</button></div>
+    </header>
+
+    <main class="main-content" id="view-root" aria-live="polite"></main>
+
+    <button class="config-trigger" type="button" aria-label="Open theme settings" data-toggle-config>
+      <span class="material-symbols-rounded" aria-hidden="true">settings</span>
+    </button>
+    <aside class="config-panel" aria-hidden="true">
+      <button class="config-close" type="button" aria-label="Close" data-toggle-config>×</button>
+      <h2>SIDEBAR TYPE</h2>
+      <div class="swatches" data-config="sidebar"><button class="is-selected" data-value="light" aria-label="Light sidebar"></button><button data-value="dark" aria-label="Dark sidebar"></button><button data-value="warm" aria-label="Soft sidebar"></button></div>
+      <h2>ACCENT COLOR</h2>
+      <div class="swatches colorful" data-config="accent"><button data-value="aqua"></button><button data-value="blue"></button><button class="is-selected" data-value="green"></button><button data-value="yellow"></button><button data-value="coral"></button></div>
+      <label class="mini-toggle"><span>SIDEBAR MINI</span><input type="checkbox" data-sidebar-mini /><i></i></label>
+      <button class="config-action primary" type="button">VIEW DOCUMENTATION</button>
+      <button class="config-action dark" type="button">UPGRADE TO PRO</button>
+      <div class="config-share">
+        <p>THANK YOU FOR SHARING!</p>
+        <div><button class="facebook" type="button" aria-label="Facebook">f</button><button class="pinterest" type="button" aria-label="Pinterest">p</button><button class="twitter" type="button" aria-label="Twitter">t</button></div>
+      </div>
+    </aside>
+
+    <div class="toast" role="status"></div>
+    <div class="modal-backdrop" data-modal-backdrop aria-hidden="true"><section class="demo-modal" role="dialog" aria-modal="true" aria-labelledby="modal-title"><div class="modal-icon">✓</div><h2 id="modal-title">Good job!</h2><p data-modal-copy>You completed this interaction.</p><button class="demo-button primary" type="button" data-close-modal>OK</button></section></div>
+    <script src="./app.js"></script>
+  </body>
+</html>

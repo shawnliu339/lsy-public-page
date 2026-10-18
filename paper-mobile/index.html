@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Vue Paper Dashboard inspired visual standard reference pages"
+    />
+    <title>Vue Paper Dashboard 2 PRO · Visual Standard</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <svg class="svg-sprite" aria-hidden="true">
+      <symbol id="i-dashboard" viewBox="0 0 24 24"><path d="M3 10.5 12 4l9 6.5v9H3zM6 10h12M7 14v5m5-5v5m5-5v5M2 21h20"/></symbol>
+      <symbol id="i-pages" viewBox="0 0 24 24"><path d="M6 3h10l3 3v15H6zM15 3v4h4M9 11h7m-7 4h7"/></symbol>
+      <symbol id="i-components" viewBox="0 0 24 24"><path d="M3 3h7v8H3zm11 0h7v5h-7zM3 15h7v6H3zm11-3h7v9h-7z"/></symbol>
+      <symbol id="i-forms" viewBox="0 0 24 24"><path d="M4 3h6v18H4zm10 0h6v18h-6M7 7h0m0 4h0m0 4h0m10-8h0m0 4h0m0 4h0"/></symbol>
+      <symbol id="i-table" viewBox="0 0 24 24"><path d="M4 3h16v18H4zM7 7h10M7 11h10M7 15h7"/></symbol>
+      <symbol id="i-map" viewBox="0 0 24 24"><path d="M12 22s7-6.2 7-13A7 7 0 0 0 5 9c0 6.8 7 13 7 13Z"/><circle cx="12" cy="9" r="2.4"/></symbol>
+      <symbol id="i-widgets" viewBox="0 0 24 24"><path d="M3 7h18v13H3zM1.5 4h21v3H1.5M9 11h6"/></symbol>
+      <symbol id="i-charts" viewBox="0 0 24 24"><path d="M4 20V9h4v11m4 0V4h4v16m4 0v-7h3v7M2 20h21"/></symbol>
+      <symbol id="i-calendar" viewBox="0 0 24 24"><path d="M3 5h18v16H3zM3 9h18M7 2v6m10-6v6"/></symbol>
+      <symbol id="i-search" viewBox="0 0 24 24"><circle cx="10.8" cy="10.8" r="6.8"/><path d="m16 16 5 5"/></symbol>
+      <symbol id="i-grid" viewBox="0 0 24 24"><path d="M4 4h6v6H4zm10 0h6v6h-6zM4 14h6v6H4zm10 0h6v6h-6z"/></symbol>
+      <symbol id="i-bell" viewBox="0 0 24 24"><path d="M5 17h14l-2-3V9a5 5 0 0 0-10 0v5zm5 3h4"/></symbol>
+      <symbol id="i-settings" viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><path d="M12 2v3m0 14v3M2 12h3m14 0h3M4.9 4.9 7 7m10 10 2.1 2.1M19.1 4.9 17 7M7 17l-2.1 2.1"/></symbol>
+      <symbol id="i-back" viewBox="0 0 24 24"><path d="m15 5-7 7 7 7"/></symbol>
+      <symbol id="i-menu" viewBox="0 0 24 24"><path d="M4 6h16M4 12h16M4 18h16"/></symbol>
+      <symbol id="i-globe" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c3 3 3 15 0 18M12 3c-3 3-3 15 0 18M5 7h14M5 17h14"/></symbol>
+      <symbol id="i-wallet" viewBox="0 0 24 24"><path d="M3 6h15v13H3zM5 6V4h13v4m0 3h3v5h-3"/><circle cx="18" cy="13.5" r=".8"/></symbol>
+      <symbol id="i-network" viewBox="0 0 24 24"><path d="M4 8V4h5v4zm11 0V4h5v4zM9.5 20v-4h5v4zM6.5 8v3h11V8M12 11v5"/></symbol>
+      <symbol id="i-heart" viewBox="0 0 24 24"><path d="M20.8 5.8c-2.1-2.4-5.8-1.9-7.3.7L12 9l-1.5-2.5C9 3.9 5.3 3.4 3.2 5.8.8 8.5 2 12 4.2 14.4L12 22l7.8-7.6C22 12 23.2 8.5 20.8 5.8Z"/></symbol>
+      <symbol id="i-refresh" viewBox="0 0 24 24"><path d="M20 7v5h-5M4 17v-5h5M18.5 9A7 7 0 0 0 6 7m-.5 8A7 7 0 0 0 18 17"/></symbol>
+      <symbol id="i-info" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 11v6m0-10h0"/></symbol>
+      <symbol id="i-check" viewBox="0 0 24 24"><path d="m5 12 4 4 10-10"/></symbol>
+      <symbol id="i-close" viewBox="0 0 24 24"><path d="m6 6 12 12M18 6 6 18"/></symbol>
+      <symbol id="i-edit" viewBox="0 0 24 24"><path d="M4 20h4L19 9l-4-4L4 16zM13 7l4 4"/></symbol>
+      <symbol id="i-user" viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M5 21c0-4 3-7 7-7s7 3 7 7"/></symbol>
+      <symbol id="i-chevron" viewBox="0 0 24 24"><path d="m8 10 4 4 4-4"/></symbol>
+    </svg>
+
+    <aside class="sidebar" id="mobile-sidebar">
+      <div class="brand"><span class="brand-mark">V</span><span>VUE PDP PRO</span></div>
+      <div class="sidebar-scroll">
+        <div class="sidebar-user">
+          <span class="avatar avatar-main">CF</span>
+          <span>Chet Faker</span>
+          <svg class="icon icon-sm"><use href="#i-chevron" /></svg>
+        </div>
+        <nav class="sidebar-nav" aria-label="Primary navigation">
+          <button class="nav-item" type="button" data-route="/admin/overview">
+            <svg class="nav-icon"><use href="#i-dashboard" /></svg><span>DASHBOARD</span>
+          </button>
+          <div class="nav-group" data-nav-group="pages">
+            <button class="nav-item has-chevron" type="button" data-group-toggle="pages" aria-expanded="false">
+              <svg class="nav-icon"><use href="#i-pages" /></svg><span>PAGES</span><span>⌄</span>
+            </button>
+            <div class="subnav">
+              <button type="button" data-route="/pages/user"><i>U</i><span>User Page</span></button>
+              <button type="button" data-route="/pages/timeline"><i>T</i><span>Timeline Page</span></button>
+              <button type="button" data-route="/login"><i>L</i><span>Login</span></button>
+              <button type="button" data-route="/register"><i>R</i><span>Register</span></button>
+              <button type="button" data-route="/lock"><i>K</i><span>Lock</span></button>
+            </div>
+          </div>
+          <div class="nav-group nav-group-components">
+            <button class="nav-item has-chevron" type="button" data-group-toggle="components" aria-expanded="false">
+              <svg class="nav-icon"><use href="#i-components" /></svg><span>COMPONENTS</span><span>⌄</span>
+            </button>
+            <div class="subnav">
+              <button type="button" data-route="/components/buttons"><i>B</i><span>Buttons</span></button>
+              <button type="button" data-route="/components/grid-system"><i>G</i><span>Grid System</span></button>
+              <button type="button" data-route="/components/panels"><i>P</i><span>Panels</span></button>
+              <button type="button" data-route="/components/sweet-alert"><i>S</i><span>Sweet Alert</span></button>
+              <button type="button" data-route="/components/notifications"><i>N</i><span>Notifications</span></button>
+              <button type="button" data-route="/components/icons"><i>I</i><span>Icons</span></button>
+              <button type="button" data-route="/components/typography"><i>T</i><span>Typography</span></button>
+            </div>
+          </div>
+          <div class="nav-group nav-group-forms">
+            <button class="nav-item has-chevron" type="button" data-group-toggle="forms" aria-expanded="false">
+              <svg class="nav-icon"><use href="#i-forms" /></svg><span>FORMS</span><span>⌄</span>
+            </button>
+            <div class="subnav">
+              <button type="button" data-route="/forms/regular"><i>R</i><span>Regular Forms</span></button>
+              <button type="button" data-route="/forms/extended"><i>E</i><span>Extended Forms</span></button>
+              <button type="button" data-route="/forms/validation"><i>V</i><span>Validation Forms</span></button>
+              <button type="button" data-route="/forms/wizard"><i>W</i><span>Wizard</span></button>
+            </div>
+          </div>
+          <div class="nav-group nav-group-table">
+            <button class="nav-item has-chevron" type="button" data-group-toggle="tables" aria-expanded="false">
+              <svg class="nav-icon"><use href="#i-table" /></svg><span>TABLE LIST</span><span>⌄</span>
+            </button>
+            <div class="subnav">
+              <button type="button" data-route="/table-list/regular"><i>R</i><span>Regular Tables</span></button>
+              <button type="button" data-route="/table-list/extended"><i>E</i><span>Extended Tables</span></button>
+              <button type="button" data-route="/table-list/paginated"><i>P</i><span>Paginated Tables</span></button>
+            </div>
+          </div>
+          <div class="nav-group nav-group-maps">
+            <button class="nav-item has-chevron" type="button" data-group-toggle="maps" aria-expanded="false">
+              <svg class="nav-icon"><use href="#i-map" /></svg><span>MAPS</span><span>⌄</span>
+            </button>
+            <div class="subnav">
+              <button type="button" data-route="/maps/google"><i>G</i><span>Google Maps</span></button>
+              <button type="button" data-route="/maps/full-screen"><i>F</i><span>Full Screen Maps</span></button>
+              <button type="button" data-route="/maps/vector-map"><i>V</i><span>Vector Maps</span></button>
+            </div>
+          </div>
+          <button class="nav-item" type="button" data-route="/admin/widgets">
+            <svg class="nav-icon"><use href="#i-widgets" /></svg><span>WIDGETS</span>
+          </button>
+          <button class="nav-item" type="button" data-route="/charts">
+            <svg class="nav-icon"><use href="#i-charts" /></svg><span>CHARTS</span>
+          </button>
+          <button class="nav-item" type="button" data-route="/calendar">
+            <svg class="nav-icon"><use href="#i-calendar" /></svg><span>CALENDAR</span>
+          </button>
+        </nav>
+      </div>
+    </aside>
+    <button class="mobile-scrim" type="button" aria-label="Close navigation" data-close-mobile-nav></button>
+
+    <header class="topbar">
+      <div class="topbar-title"><button class="back-button" type="button" aria-label="Back"><svg class="icon"><use href="#i-back" /></svg></button><span id="page-title">Vue Paper Dashboard 2 PRO</span></div>
+      <div class="topbar-tools">
+        <div class="search-shell"><label class="global-search"><input type="search" placeholder="Search..." data-global-search autocomplete="off" /><svg class="icon icon-sm"><use href="#i-search" /></svg></label><div class="search-results" data-search-results></div></div>
+        <button class="tool-button" type="button" aria-label="Applications"><svg class="icon"><use href="#i-grid" /></svg></button>
+        <button class="tool-button" type="button" aria-label="Notifications" data-toggle-notifications><svg class="icon"><use href="#i-bell" /></svg><span class="notification-dot"></span><span class="tiny-caret">⌄</span></button>
+        <button class="tool-button" type="button" aria-label="Settings" data-toggle-config><span class="gear" aria-hidden="true">⚙</span></button>
+      </div>
+      <button class="mobile-nav-toggle" type="button" aria-label="Open navigation" aria-controls="mobile-sidebar" aria-expanded="false" data-toggle-mobile-nav>
+        <svg class="icon"><use href="#i-menu" /></svg>
+      </button>
+      <button class="mobile-more-toggle" type="button" aria-label="More options" data-toggle-notifications>⋮</button>
+      <div class="notification-menu" aria-hidden="true"><button type="button">New reservation received</button><button type="button">Room 302 requires attention</button><button type="button">Monthly report is ready</button></div>
+    </header>
+
+    <main class="main-content" id="view-root" aria-live="polite"></main>
+
+    <button class="config-trigger" type="button" aria-label="Open theme settings" data-toggle-config>
+      <span class="gear" aria-hidden="true">⚙</span>
+    </button>
+    <aside class="config-panel" aria-hidden="true">
+      <button class="config-close" type="button" aria-label="Close" data-toggle-config>×</button>
+      <h2>SIDEBAR BACKGROUND</h2>
+      <div class="swatches" data-config="sidebar"><button data-value="light"></button><button data-value="dark"></button><button class="is-selected" data-value="warm"></button></div>
+      <h2>SIDEBAR ACTIVE COLOR</h2>
+      <div class="swatches colorful" data-config="accent"><button data-value="aqua"></button><button data-value="blue"></button><button data-value="green"></button><button class="is-selected" data-value="yellow"></button><button data-value="coral"></button></div>
+      <label class="mini-toggle"><span>SIDEBAR MINI</span><input type="checkbox" data-sidebar-mini /><i></i></label>
+      <button class="config-action aqua" type="button">BUY NOW</button>
+      <button class="config-action warm" type="button">DOCUMENTATION</button>
+      <button class="config-action blue" type="button">GET FREE DEMO</button>
+      <div class="config-share">
+        <p>THANK YOU FOR SHARING!</p>
+        <div><button class="facebook" type="button" aria-label="Facebook">f</button><button class="pinterest" type="button" aria-label="Pinterest">p</button><button class="twitter" type="button" aria-label="Twitter">t</button></div>
+      </div>
+    </aside>
+
+    <div class="toast" role="status"></div>
+    <div class="modal-backdrop" data-modal-backdrop aria-hidden="true"><section class="demo-modal" role="dialog" aria-modal="true" aria-labelledby="modal-title"><div class="modal-icon">✓</div><h2 id="modal-title">Good job!</h2><p data-modal-copy>You completed this interaction.</p><button class="demo-button primary" type="button" data-close-modal>OK</button></section></div>
+    <script src="./app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Mobile design standard prototypes" />
+    <title>Mobile Design Standards</title>
+    <style>
+      :root { color-scheme: light; font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+      * { box-sizing: border-box; }
+      body { min-width: 320px; margin: 0; color: #262626; background: #f5f5f5; }
+      header { padding: 56px 24px 30px; text-align: center; }
+      h1 { margin: 0; font-size: clamp(28px, 5vw, 44px); letter-spacing: -.04em; }
+      header p { max-width: 620px; margin: 12px auto 0; color: #737373; line-height: 1.7; }
+      main { display: grid; grid-template-columns: repeat(2, minmax(0, 440px)); gap: 28px; justify-content: center; padding: 0 24px 64px; }
+      article { overflow: hidden; border: 1px solid #e5e5e5; border-radius: 16px; background: white; box-shadow: 0 10px 30px rgb(0 0 0 / .07); }
+      .card-head { display: flex; align-items: center; justify-content: space-between; gap: 16px; padding: 20px; border-bottom: 1px solid #e5e5e5; }
+      h2 { margin: 0 0 4px; font-size: 18px; }
+      small { color: #8a8a8a; }
+      a { display: inline-flex; min-height: 38px; align-items: center; padding: 0 16px; border-radius: 8px; color: white; background: #262626; font-size: 13px; font-weight: 600; text-decoration: none; white-space: nowrap; }
+      article:last-child a { background: #43a047; }
+      .preview { height: 680px; padding: 14px; background: #ececec; }
+      iframe { width: 100%; height: 100%; border: 0; border-radius: 10px; background: white; }
+      footer { padding: 0 24px 40px; color: #8a8a8a; font-size: 12px; text-align: center; }
+      @media (max-width: 760px) {
+        header { padding-top: 38px; }
+        main { grid-template-columns: minmax(0, 440px); padding-right: 14px; padding-left: 14px; }
+        .preview { height: 620px; }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Mobile Design Standards</h1>
+      <p>对比 Paper 与 Material 两套移动端 Dashboard 视觉标准。预览基准为 iPhone 16 Pro Max（440 × 956）。</p>
+    </header>
+    <main>
+      <article>
+        <div class="card-head"><div><h2>Paper Mobile</h2><small>Paper Dashboard visual direction</small></div><a href="./paper-mobile/">打开原型</a></div>
+        <div class="preview"><iframe src="./paper-mobile/" title="Paper Mobile Dashboard"></iframe></div>
+      </article>
+      <article>
+        <div class="card-head"><div><h2>Material Mobile</h2><small>Material Dashboard visual direction</small></div><a href="./material-mobile/">打开原型</a></div>
+        <div class="preview"><iframe src="./material-mobile/" title="Material Mobile Dashboard"></iframe></div>
+      </article>
+    </main>
+    <footer>Mobile dashboard design discussion</footer>
+  </body>
+</html>
