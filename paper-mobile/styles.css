@@ -81,7 +81,7 @@ button:focus-visible, input:focus-visible { outline: 3px solid color-mix(in srgb
 .topbar-tools > .tool-button:nth-of-type(2) { min-width: 57px; }
 .topbar-tools > .tool-button:nth-of-type(3) { min-width: 53px; }
 .tool-button .icon { width: 19px; height: 19px; }
-.settings-icon { fill: none; stroke: currentColor; }
+.settings-icon-solid { fill: currentColor; stroke: none; }
 .tiny-caret { position: absolute; top: 16px; right: 0; font-size: 10px; }
 .notification-dot { display: none; }
 .mobile-nav-toggle, .mobile-more-toggle, .mobile-scrim { display: none; }
